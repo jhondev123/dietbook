@@ -296,7 +296,7 @@ const Form = ({ onSubmit, loading }) => {
                     </Col>
                 </Row>
 
-                <Button type="submit" disabled={loading}>
+                <Button type="submit" className="my-2" disabled={loading}>
                     {loading ? 'Carregando...' : 'Enviar'}
                 </Button>
 

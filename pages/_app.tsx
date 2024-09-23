@@ -1,9 +1,8 @@
-// pages/_app.js
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import '../styles/globals.css'; // Importe o CSS global aqui
+import '../styles/globals.css';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 function MyApp({ Component, pageProps }) {
