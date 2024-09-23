@@ -34,19 +34,6 @@ export default function Home() {
         <Container>
             <Form onSubmit={handleSubmit} loading={loading}/>
 
-            {/* <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    value={input}
-                    onChange={(e) => setInput(e.target.value)}
-                    placeholder="Digite sua mensagem"
-                    required
-                />
-                <button type="submit" disabled={loading}>
-                    {loading ? 'Carregando...' : 'Enviar'}
-                </button>
-            </form> */}
-
             {response && (
                 <div>
                     <h2>Resposta:</h2>
